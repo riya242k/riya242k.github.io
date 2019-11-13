@@ -1,8 +1,9 @@
-.body
+body
 {
     margin:0;
     padding:0;
     font-family:sans-serif;
+
 }
 #header
 {
@@ -63,8 +64,7 @@
 }
 .profile-img
 {
-    height: 500px;
-    padding-top:10px;
+    height: 300px;
     border-top-right-radius:50px;
     border-bottom-left-radius:50px;
 }
@@ -259,4 +259,10 @@ transition: 1s;
     color:#fff;
     padding-top:10px;
 }
-
+@media (min-width: 320px) and (max-width: 768px) {
+    
+  }
+  
+  @media (min-width: 992px) {
+   
+}
